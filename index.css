@@ -1,0 +1,78 @@
+body {
+  font-family: "Poppins", sans-serif;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin: 0;
+}
+
+.left-container {
+  height: 100vh;
+  position: relative;
+}
+.name-container {
+  position: absolute;
+  bottom: 0;
+  color: white;
+  left: calc(50% - 8em);
+  width: 16em;
+  font-size: 24px;
+}
+
+.left-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.right-container {
+  background-color: #1e1e20;
+  height: 100vh;
+}
+
+.information-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.information-title {
+  color: white;
+}
+#title {
+  font-size: 65px;
+  margin-bottom: 0;
+}
+
+#subtitle-container {
+  color: #395146;
+}
+
+.text-container {
+  text-align: left;
+
+  color: rgb(177, 177, 177);
+}
+
+.line-container {
+  border-bottom: 1px solid rgb(95, 92, 92);
+}
+.introduction {
+  width: 85%;
+  margin-bottom: 2rem;
+}
+
+.skills-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: 12em;
+}
+
+.skills-card img {
+  height: 80px;
+  width: 80px;
+}
